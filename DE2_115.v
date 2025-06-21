@@ -605,7 +605,7 @@ module instructionMemory(clock, readAddress, instruction);
 
    always @(posedge clock)
    begin
-     memoriaIns[0] <= 32'b00000000101000000000000010010011;
+	memoriaIns[0] <= 32'b00000000101000000000000010010011;
       memoriaIns[1] <= 32'b00000001010000000000000100010011;
       memoriaIns[2] <= 32'b00000110010000000000000110010011;
       memoriaIns[3] <= 32'b00000000000100011010000000100011;
